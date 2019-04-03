@@ -47,7 +47,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="30px 15px 30px 15px" border-radius="11px 11px 0px 0px">
 
-      <mj-column width="220px">
+      <mj-column>
 
         <mj-image src="https://i.postimg.cc/pLDJR9bw/logo1.png" width="130px"  align="left"/>
 
@@ -62,7 +62,7 @@
 
       </mj-column>
 
-      <mj-column width="220px" css-class="move_right">
+      <mj-column css-class="move_right">
 
         <mj-spacer  height="2px" css-class="show hide_on_mobile"/>
 
@@ -80,6 +80,60 @@
 
       </mj-column>
 
+    </mj-section>
+
+    <mj-raw>
+      <!-- items -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 15px 30px 15px">
+      <mj-column>
+        <mj-table>
+          <tr style="border-bottom:1px solid #ecedee;text-align:left;">
+            <th style="color:#1e2b33; font-family:'quicksand', sans-serif; font-size:12px;">Item</th>
+            <th style="color:#1e2b33; font-family:'quicksand', sans-serif; font-size:12px;">SKU</th>
+            <th style="color:#1e2b33; font-family:'quicksand', sans-serif; font-size:12px;">Quantity</th>
+            <th style="color:#1e2b33; font-family:'quicksand', sans-serif; font-size:12px;">Subtotal</th>
+          </tr>
+          <tr style="border-bottom:1px solid #ecedee;">
+            <td style="color:#ff0000; font-family:'quicksand', sans-serif; font-size:12px;">OnePlus 6T</td>
+            <td style="color:#5b5b5b; font-family:'quicksand', sans-serif; font-size:12px;">OP692A</td>
+            <td style="color:#5b5b5b; font-family:'quicksand', sans-serif; font-size:12px; padding-left:8px;">1</td>
+            <td style="color:#5b5b5b; font-family:'quicksand', sans-serif; font-size:12px; padding-left:8px;">$549</td>
+          </tr>
+          <tr style="border-bottom:1px solid #ecedee;">
+            <td style="color:#ff0000; font-family:'quicksand', sans-serif; font-size:12px; line-height:19px;">OnePlus Fast Charge <br>Car Charge</td>
+            <td style="color:#5b5b5b; font-family:'quicksand', sans-serif; font-size:12px;">OX212R</td>
+            <td style="color:#5b5b5b; font-family:'quicksand', sans-serif; font-size:12px; padding-left:8px;">1</td>
+            <td style="color:#5b5b5b; font-family:'quicksand', sans-serif; font-size:12px; padding-left:8px;">$29.95</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- costs -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 15px 30px 15px">
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td style="color:#646a6e; font-family:'quicksand', sans-serif; font-size:12px; text-align:right; ">Subtotal</td>
+            <td style="color:#646a6e; font-family:'quicksand', sans-serif; font-size:12px; text-align:right; "width="80">$578.95</td>
+          </tr>
+          <tr>
+            <td style="color:#646a6e; font-family:'quicksand', sans-serif; font-size:12px; text-align:right; ">Shipping &amp; Handling</td>
+            <td style="color:#646a6e; font-family:'quicksand', sans-serif; font-size:12px; text-align:right;">$15.00</td>
+          </tr>
+          <tr>
+            <td style="color:#000000; font-family:'quicksand', sans-serif; font-size:12px; font-weight:bold; text-align:right; ">Grand Total (Incl.Tax)</td>
+            <td style="color:#000000; font-family:'quicksand', sans-serif; font-size:12px; font-weight:bold; text-align:right;">$613.95</td>
+          </tr>
+          <tr>
+            <td style="color:#b0b0b0; font-family:'quicksand', sans-serif; font-size:12px; text-align:right; ">Tax</td>
+            <td style="color:#b0b0b0; font-family:'quicksand', sans-serif; font-size:12px; text-align:right;">$20</td>
+          </tr>
+        </mj-table>
+      </mj-column>
     </mj-section>
 
 
