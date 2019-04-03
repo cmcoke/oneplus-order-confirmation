@@ -49,7 +49,7 @@
 
       <mj-column>
 
-        <mj-image src="https://i.postimg.cc/pLDJR9bw/logo1.png" width="130px"  align="left"/>
+        <mj-image src="https://i.postimg.cc/pLDJR9bw/logo1.png" width="130px" align="left"/>
 
         <mj-spacer  height="20px" css-class="hide"/>
         <mj-spacer  height="40px" css-class="show hide_on_mobile"/>
@@ -73,8 +73,8 @@
         <mj-spacer  css-class="hide"/>
         <mj-spacer  height="42px" css-class="show hide_on_mobile"/>
 
-        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#5b5b5b" line-height="18px" text-transform="uppercase">
-          Order #410000182 <br>
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#5b5b5b" line-height="18px" >
+          Order #4100001822<br>
           April 2nd 2019
         </mj-text>
 
@@ -190,7 +190,36 @@
 
     </mj-section>
 
+    <mj-raw>
+      <!-- footer -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="20px 15px 70px 15px">
+      <mj-column>
+        <mj-text font-family="'quicksand', sans-serif" font-size="13px" line-height="22px" color="#5b5b5b">
+          Have a question? <br>Call: +1 (858) 609-6590 <br> Email: support@oneplus.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
+    <mj-raw>
+      <!-- line divider -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="0px 11px 0px 11px">
+      <mj-column>
+         <mj-divider border-width="1px" border-style="solid" border-color="#ecedee" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- personal note -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="0px 15px 0px 15px" border-radius="0px 0px 11px 11px">
+      <mj-column>
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" line-height="17px" align="center" color="#5b5b5b">
+           <p>To whom it may concern, this email is a personal project of mine and not that of OnePlus.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
 
   </mj-body>
