@@ -125,8 +125,8 @@
             <td style="color:#646a6e; font-family:'quicksand', sans-serif; font-size:12px; text-align:right;">$15.00</td>
           </tr>
           <tr>
-            <td style="color:#000000; font-family:'quicksand', sans-serif; font-size:12px; font-weight:bold; text-align:right; ">Grand Total (Incl.Tax)</td>
-            <td style="color:#000000; font-family:'quicksand', sans-serif; font-size:12px; font-weight:bold; text-align:right;">$613.95</td>
+            <td style="color:#000000; font-family:'quicksand', sans-serif; font-size:12px; text-align:right; "><strong>Grand Total (Incl.Tax)</strong></td>
+            <td style="color:#000000; font-family:'quicksand', sans-serif; font-size:12px; text-align:right;"><strong>$613.95</strong></td>
           </tr>
           <tr>
             <td style="color:#b0b0b0; font-family:'quicksand', sans-serif; font-size:12px; text-align:right; ">Tax</td>
@@ -135,6 +135,62 @@
         </mj-table>
       </mj-column>
     </mj-section>
+
+    <mj-raw>
+      <!-- billing information & payment method -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 15px 30px 15px" >
+
+      <mj-column vertical-align="top" padding="0px 0px 30px 0px">
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#000000">
+          <strong>BILLING INFORMATION</strong>
+        </mj-text>
+        <mj-spacer height="11px" />
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#5b5b5b" line-height="22px">
+          Kimberly Rose<br> Public Place, Somewhere<br> New York NY<br> 1002, United States<br> T: 123-456-7890
+        </mj-text>
+      </mj-column>
+
+      <mj-column vertical-align="top" >
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#000000">
+          <strong>PAYMENT METHOD</strong>
+        </mj-text>
+        <mj-spacer height="11px" />
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#5b5b5b" line-height="22px">
+          Credit Card<br> Credit Card Type: Mastercard<br> Worldpay Transaction ID: <a href="#" style="color: #ff0000; text-decoration:underline;">3125769359</a><br>
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- shipping information & shipping method -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="0px 15px 30px 15px" >
+
+      <mj-column vertical-align="top" padding="0px 0px 30px 0px">
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#000000">
+          <strong>SHIPPING INFORMATION</strong>
+        </mj-text>
+        <mj-spacer height="11px" />
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#5b5b5b" line-height="22px">
+          Public Place, Somewhere<br> New York NY<br> 1002, United States<br> T: 123-456-7890
+        </mj-text>
+      </mj-column>
+
+      <mj-column vertical-align="top" >
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#000000">
+          <strong>SHIPPING METHOD</strong>
+        </mj-text>
+        <mj-spacer height="11px" />
+        <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#5b5b5b" line-height="22px">
+          UPS: U.S. Shipping Services
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+
 
 
   </mj-body>
