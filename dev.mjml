@@ -147,7 +147,7 @@
         </mj-text>
         <mj-spacer height="11px" />
         <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#5b5b5b" line-height="22px">
-          Kimberly Rose<br> Public Place, Somewhere<br> New York NY<br> 1002, United States<br> T: 123-456-7890
+          Kimberly Rose<br> Public Place, Somewhere<br> New York City, New York<br> 10002, United States<br> T: 123-456-7890
         </mj-text>
       </mj-column>
 
@@ -174,7 +174,7 @@
         </mj-text>
         <mj-spacer height="11px" />
         <mj-text font-family="'quicksand', sans-serif" font-size="12px" color="#5b5b5b" line-height="22px">
-          Public Place, Somewhere<br> New York NY<br> 1002, United States<br> T: 123-456-7890
+          Public Place, Somewhere<br> New York City, New York<br> 10002, United States<br> T: 123-456-7890
         </mj-text>
       </mj-column>
 
@@ -221,6 +221,7 @@
       </mj-column>
     </mj-section>
 
+    <mj-spacer height="20px" />
 
   </mj-body>
 
